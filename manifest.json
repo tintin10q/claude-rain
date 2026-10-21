@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Claude Rain",
+  "version": "1.0.0",
+  "description": "A subtle rain effect on claude.ai. Toggle with Ctrl+Alt+R.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://claude.ai/*"],
+      "js": ["rain.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "claude-rain@quinten.local",
+      "strict_min_version": "109.0"
+    }
+  }
+}
