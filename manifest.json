@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Claude Rain",
   "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A subtle rain effect on claude.ai. Toggle with Ctrl+Alt+R.",
   "permissions": ["storage"],
   "content_scripts": [
