@@ -92,7 +92,7 @@
     });
  
     isRenderedDark = isDarkMode();
-    const rgb = isRenderedDark ? "200, 215, 235" : "90, 110, 140";
+    const rgb = isRenderedDark ? "200, 215, 235" : "0, 0, 0";
     for (const layer of LAYERS) {
       // Rendered at CSS pixel resolution on purpose: faint 1px streaks look the
       // same at higher DPR, and this keeps GPU memory around 20 MB per layer.
